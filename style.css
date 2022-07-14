@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 body{
@@ -97,8 +98,26 @@ footer img{
 }
 #button:hover, #button2:hover, #button3:hover{
     background-color: #06AA48;
+
+
 }
 
+header{
+    background-image: url(img/neymar-rebaixado.jpg);
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
 
-
+header h1{
+    color: black;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 55px;
+}
 
